@@ -7,18 +7,18 @@ function Item(purchase, price, done) {
 var AppComponent = ng.core.Component({
     selector: 'my-app',
     template:  `<div class="page-header">
-        <h1> Список покупок </h1>
+        <h1> Список евреев </h1>
     </div>
     <div class="panel">
         <div class="form-inline">
             <div class="form-group">
                 <div class="col-md-8">
-                    <input class="form-control" [(ngModel)]="text" placeholder = "Название" />
+                    <input class="form-control" [(ngModel)]="text" placeholder = "Ф.И.О." />
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-md-6">
-                    <input type="number" class="form-control" [(ngModel)]="price" placeholder="Цена" />
+                    <input type="number" class="form-control" [(ngModel)]="price" placeholder="Лет" />
                 </div>
             </div>
             <div class="form-group">
@@ -30,9 +30,9 @@ var AppComponent = ng.core.Component({
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>Предмет</th>
-                    <th>Цена</th>
-                    <th>Куплено</th>
+                    <th>ФИО</th>
+                    <th>Возраст</th>
+                    <th>Был в Израиле</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,10 +49,10 @@ var AppComponent = ng.core.Component({
         constructor: function() {
 
             this.items= [
-                new Item("Хлеб",15.9),
-                new Item("Масло",60),
-                new Item("Картофель",22.6, true),
-                new Item("Сыр",310)
+                new Item("Яша Штольман",25),
+                new Item("Моисей Якович",36),
+                new Item("Сара Саровна",22, true),
+                new Item("Исус Христос",2017)
             ];
         }
     });
