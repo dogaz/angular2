@@ -1,0 +1,40 @@
+
+.eTitle {
+	border: 1px solid #ccc;
+	background: #e3e3e3;
+	height: 17px;
+	font-size: 12px;
+	font-family: tahoma;
+	color: #696969;
+	font-weight: bold;
+	padding: 8px 7px 5px 7px;
+	text-shadow: #fff 0px 1px 0px;
+}
+
+.pers_con {
+	font: 11px Tahoma;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+
+}
+
+.left_sd {
+	width: 140px;
+	height: 15px;
+	background: #f7f7f7;
+	color: #666;
+	padding: 6px 6px 6px 9px;
+	font: 11px Tahoma;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+.right_sd {
+	padding: 10px;
+	font: 11px Tahoma;
+	border-bottom: 1px solid #ccc;
+	width: 650px;
+	height: 15px;
+}
