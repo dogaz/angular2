@@ -49,10 +49,7 @@ var AppComponent = ng.core.Component({
         constructor: function() {
 
             this.items= [
-                new Item("Яша Штольман",25),
-                new Item("Моисей Якович",36),
-                new Item("Сара Саровна",22, true),
-                new Item("Исус Христос",2017)
+              
             ];
         }
     });
